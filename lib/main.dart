@@ -19,10 +19,9 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
- 
     return MaterialApp(
         debugShowCheckedModeBanner: false,
-        home: HomePage(),
+        home: const HomePage(),
         navigatorKey: navigatorKey,
         routes: {
           '/notification_screen': (context) => const NotificationPage(),
